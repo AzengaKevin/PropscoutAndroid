@@ -20,7 +20,7 @@ data class Property(
     private val _file: String
 ) {
     val file: String
-        get() = "https://propscout.co.ke${_file}"
+        get() = "https://old.propscout.co.ke${_file}"
 
     companion object {
         @JvmStatic
